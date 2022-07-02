@@ -1,20 +1,20 @@
 #include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
 /**
- *main - prints all single digit numbers of base 10 starting from 0
- *followed by a new line
+ *main - prints the lowercase alphabet in reverse, followed by a new line
  *
  *Return: 0 if success
  **/
 int main(void)
 {
-	char d = '0';
+	char ch;
 
-	while (d <= '9')
+	for (ch = 'z'; ch >= 'a'; ch--)
 	{
-	putchar(d);
-	d++;
+	putchar(ch);
 	}
-	putchar('\n');
+	putchar(10);
+
 	return (0);
 }
