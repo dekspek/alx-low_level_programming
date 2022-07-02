@@ -1,4 +1,6 @@
-**
+#include <srdio>
+
+/**
 * main - Entry point
 *
 * Return: Always 0
