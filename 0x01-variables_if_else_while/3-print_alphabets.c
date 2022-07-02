@@ -1,5 +1,4 @@
-#include <srdio>
-
+#include <srdio.h>
 /**
 * main - Entry point
 *
