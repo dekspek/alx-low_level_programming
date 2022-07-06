@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - function to print alphabet ABC
+ * print_alphabet - function to print ABC
  *
  * Return: 0
  */
