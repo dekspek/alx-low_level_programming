@@ -10,19 +10,20 @@
  * Return: 0
  */
 
-
-
 void print_line(int n)
+
 {
-	int count = n, i;
-
-	for (i = 0; i < count; i++)
+	int i;
+	if (n > 0)
 	{
-
-		_putchar('_');
-
+		for (i = 1; 1 <= n; i++)
+		{
+			_putchar('_');
+		}
+		_putchar('\n');
 	}
-
-	_putchar('\n');
-
+	else
+	{
+		_putchar('\n');
+	}
 }
