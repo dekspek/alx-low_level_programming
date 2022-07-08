@@ -1,42 +1,28 @@
 #include "main.h"
+
+
+
 /**
- * print_diagonal - print diagonal line
- * @n: number of lines to print
+ * print_line - print lines
+ *
+ * @n: number of lines to be printed
  *
  * Return: 0
  */
 
 
 
-void print_diagonal(int n)
+void print_line(int n)
 {
-	int i, num;
+	int count = n, i;
 
-	if (n <= 0)
+	for (i = 0; i < count; i++)
 	{
 
-		_putchar('\n');
+		_putchar('_');
 
 	}
 
-	else
-	{
-		for (num = 0; num < n; num++)
-		{
-
-			for (i = 0; i < num; i++)
-			{
-
-				_putchar(' ');
-
-			}
-
-			_putchar('\\');
-
-			_putchar('\n');
-
-		}
-
-	}
+	_putchar('\n');
 
 }
