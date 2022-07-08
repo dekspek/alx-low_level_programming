@@ -2,11 +2,9 @@
 #include "main.h"
 
 /**
- * print_line - print lines
- *
- * @n: number of lines to be printed
- *
- * Return: 0
+ * print_line - check for ckecks for a digit (0 through 9)
+ * @n: n - Variable
+ * Return: Always 0
  */
 void print_line(int n)
 
@@ -14,11 +12,11 @@ void print_line(int n)
 int i;
 if (n > 0)
 {
-for (i = 1; 1 <= n; i++)
+for (i = 1; i <= n; i++)
 {
 _putchar('_');
 }
-_putchar('\n');
+_putchar*('\n');
 }
 else
 {
